@@ -83,7 +83,6 @@ int main()
 {
     NQueens* problem = new NQueens() ;
 
-    problem -> print() ;
     problem -> backtracking( 0 ) ;
 
     return 0;
